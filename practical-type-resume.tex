@@ -1,0 +1,100 @@
+\documentclass{practical-type-resume}
+
+% Equity
+\setmainfont[
+ Ligatures=TeX,
+ BoldFont={Equity Text B Bold}, 
+ ItalicFont={Equity Text B Italic},
+ BoldItalicFont={Equity Text B Bold Italic},
+ ]{Equity Text B} 
+
+% Concourse
+\setsansfont[
+ Ligatures=TeX,
+ BoldFont={Concourse T3 Bold}, 
+ ItalicFont={Concourse T3 Italic},
+ BoldItalicFont={Concourse T3 Bold Italic},
+ Scale=MatchLowercase
+]{Concourse T3} 
+
+%Custom Variables
+\newcommand*{\name}{Vivek D. Hazari} 
+
+%if desired, this will create a really nice customized footer
+\newcommand{\foot}{vivek.fm/resume}
+
+\begin{document}
+% Header %%%%%%%%
+% prints your name
+\namehead
+
+% Links
+\address{ vivek.fm}{github.com/Vivekhaz}{(845) 661-2597}{ vivek.22@dartmouth.edu }{linkedin.com/in/vivekhaz}{}
+
+% Education %%%%%%%%%%%%%%
+\sectionheading{Education}
+
+\organization{Dartmouth College}{}{2018-2022}
+	\begin{position}{}{}
+		\item GPA 3.60. B.A. Pursuing a B.A. in \textit{Computer Science} and a B.A. in \textit{Philosophy}
+		\item Relevant Coursework: Linear Algebra (Honors Section), Graph Theory, Software Design \& Implementation, Algorithms, Discrete Math, Computer Architecture, Digital Electronics | Citation for Academic Excellence in Introduction to Programming and Computation, Machine Learning
+	\end{position}
+
+\organization{Roy C. Ketcham HS}{}{2014 - 2018}
+	\begin{position}{}{}
+	\item GPA 99.72 / 100. President of Debate Society and Science Olympiad
+	\end{position}
+
+% Work Experience
+\sectionheading{Work Experience}
+
+	%%%% Lovingly %%%%
+	\organization{Lovingly}{Fishkill, NY}{June to September 2019}
+	\begin{position}{Data Science Intern}{}
+		\item Presented data-backed directives to CEO to increase total company revenue by a projected 7\%
+		\item Designed and implemented competitive intelligence platform to track over 10,000 potential clients, effectively cutting external service expenses and increasing sales team productivity
+		\item Developed internal client rating system to aid support team saving more than 2 hours per day
+		
+	\end{position}
+	
+	%%%% TaxPat %%%%
+	\organization{TaxPat}{Hanover, NH}{February to June 2019}
+	\begin{position}{Data Analytics \& Research Intern}{}
+		%%% Work on wording for 'demographic'
+		\item Doubled market size estimate for Tuck incubated start-up serving educated immigrants by uncovering alternate demographic group 
+		%%% 
+		\item Conducted client research via cold call outreach cross-validated with visa and education statistics provided by various tax services
+	\end{position}
+	
+	%%%% The Dartmouth %%%%
+	\organization{The Dartmouth}{Hanover, NH}{September 2018 to April 2019}
+	\begin{position}{News Reporter, Technology Staff}{}
+		\item Researched, reported on, and wrote stories on topics including computer security and computer education equality
+	\end{position}
+
+% Projects & Research
+\sectionheading{Projects and Research}
+	%%%% Robin %%%%
+	\organization{Robin}{}{}
+	\begin{position}{A Collaboration In Active Suicide Prevention}{}
+	\item Worked closely with a peer to develop 1.1 million entry dataset containing major classifications of potentially suicidal text as described in psychological research via web-scraping online social media posts
+	\item Explored fine-tuning of pre-trained BERT model to achieve SOTA (.96 accuracy) results in classifying social-media text as ‘suicidal-sentimental’
+	\end{position}
+
+% Leadership
+\sectionheading{Leadership and Other Activities}
+	%%%% Fencing Team %%%%
+	\organization{Dartmouth College Fencing Team}{Hanover, NH}{2018-Present}
+	\begin{position}{Treasurer, Coach, C18  Rated Competitor}{}
+	\item Managed a club inventory worth over \$15,000, consisting of collecting termly dues, maintaining club equipment, and placing orders for required equipment
+	\item Developed lesson plans to on-board new members to competitive level in 5 weeks
+	\end{position}
+
+% Skills
+\sectionheading{Skills}
+\vspace{-1em}
+	Programming Languages: Proficient: Python | Familiar: Java, C, C++, VHDL
+	
+	Technologies: Web Scraping, Git, UNIX, MySQL, Data Processing, Machine Learning, REST APIs, ANNs, Shell, \LaTeX
+
+\end{document}
