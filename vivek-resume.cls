@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{practical-type-resume}[2020/05/31 Vivek Résumé Class]
+\ProvidesClass{vivek-resume}[2020/05/31 Vivek Résumé Class]
 \LoadClass[9pt]{article}
 
 % Standards
